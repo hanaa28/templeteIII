@@ -1377,3 +1377,20 @@ justify-content: flex-end;
   }
   
 }
+@media (max-width:767px) {
+  .files{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .file-stat{
+    flex-basis: 70%;
+    order: -1;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+  .file-content{
+    flex-basis: 70%;
+  }
+}
